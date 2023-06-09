@@ -31,6 +31,7 @@ Feature:Registrar Usuario
         | Jherson  |   Pinedo Valverde  | Jpinedovalverde@gmail.com      | Yan200218 |
         | Gianfranco | Callocondo Choque | Gcallocondocloque07@gmail.com | Gian524%20 |
     
+    
 Feature: Verificar usuario y contraseña
     Como usuario quiero ingresar  mi usuario y contraseña para 
     poder ingresar a la app
@@ -58,6 +59,7 @@ Feature: Verificar usuario y contraseña
         |  Nombre de usuario  | Contraseña |                 Mensaje de sistemas                 |
         |        YanSB        | Yan%200218 | Contraseña o usuario incorrecto, vuelve intentarlo  |
 
+
 Feature: Modificar usuario
     Como usuario quiero poder modificar los datos de mi perfil para poder
     cambiarlos cuando crea conveniente
@@ -77,6 +79,7 @@ Feature: Modificar usuario
     |                           | Perfil                  |
     | Perosnalización de perfil | Edición del perfil      |
     |                           | Agregar foto del perfil |
+
 
 Feature: Buscar y selecionar pictogramas
    Como persona con TEA, quiero que la aplicación incluyera  opciones
@@ -107,6 +110,8 @@ Feature: Buscar y selecionar pictogramas
         | Carro                   | 
         | Perro                   |
         | Casa                    |
+
+
 
 Feature: Personalizar pictograma
         Como familia d ela persona con TEA quiero poder perosnalizar los
