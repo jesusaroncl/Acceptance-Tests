@@ -1,4 +1,6 @@
-
+Feature:Registrar Usuario
+    Como usuario nuevo quiero poder registrarme en 
+    la aplicacion para poder usar sus funcionalidades.
 
     Scenario: Usruario se registra en la aplicación
     Given el <usuario> no posee una cuenta en la aplicacion
