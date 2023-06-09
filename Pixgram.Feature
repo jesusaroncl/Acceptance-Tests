@@ -51,7 +51,8 @@ Feature: Verificar usuario y contraseña
     And la perosna con TEA de clic en el boton de "Ingresar"
     And le sale dato incorrecto (la contraseña no contiene los caracteres necesarios,
         el nombre de usuario esta incorrecto)
-    Then el siste,a borrará los datos de la casilla en la cual esta ocurriendo el problema
+    Then el sistema mostrará un cuadro de alerta
+    And borrará los datos de la casilla en la cual esta ocurriendo el problema
     And solicitará al usuario colocar un usuario y contraseña valido
 
     Examples:
@@ -67,7 +68,7 @@ Feature: Modificar usuario
         su cuenta y información
     When la persona con TEA acceda a su profile al apartado "Perfil"
     And entonces el <usuario> se ubique en la subpagina "Edición del perfil"
-    And el <usuario> rellene los campos "Agregar foto del perfil" 
+    And el <usuario> rellene los campos "Cambiar foto del perfil" 
     Then el sistema hara las actualizaciones del usuario podra observar toda 
         su información respectiva
     And podra modificar su usuario y/o contraseña 
@@ -76,7 +77,7 @@ Feature: Modificar usuario
     |           Opcion          |       Pasos a seguir    |
     |                           | Perfil                  |
     | Perosnalización de perfil | Edición del perfil      |
-    |                           | Agregar foto del perfil |
+    |                           |   Cambiar foto del perfil |
 
 Feature: Buscar y selecionar pictogramas
    Como persona con TEA, quiero que la aplicación incluyera  opciones
