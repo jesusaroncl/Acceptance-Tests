@@ -59,7 +59,6 @@ Feature: Verificar usuario y contraseña
         |        YanSB        | Yan%200218 | Contraseña o usuario incorrecto, vuelve intentarlo  |
 
 Feature: Modificar usuario
-
     Como usuario quiero poder modificar los datos de mi perfil para poder
     cambiarlos cuando crea conveniente
 
@@ -80,7 +79,6 @@ Feature: Modificar usuario
     |                           | Agregar foto del perfil |
 
 Feature: Buscar y selecionar pictogramas
-
    Como persona con TEA, quiero que la aplicación incluyera  opciones
    para poder elegir mas pictogramas y asi enriquecer mi experiencia en 
    el uso
@@ -111,7 +109,6 @@ Feature: Buscar y selecionar pictogramas
         | Casa                    |
 
 Feature: Personalizar pictograma
-    
         Como familia d ela persona con TEA quiero poder perosnalizar los
         pictogramas para poder mejorar y adecuarme a sus necesidades de
         mi familiar con autismo
@@ -143,7 +140,6 @@ Feature: Personalizar pictograma
         | Parque                     |
 
 Feature: Asistente virtual
-
     Como usuario, tengo el deseo de que la aplicación cuente con un asistente
     virtual personalizado con el fin de mejorar la utilización de los pictogramas
 
