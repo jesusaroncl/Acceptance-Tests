@@ -10,7 +10,11 @@ Feature:Registrar Usuario
     And el <usuario> de clic al boton "Crear cuenta"
     Then el sistema de la aplicacion creara una cuenta para el usuario con TEA
 
-
+    Examples:
+        |   Nombres  |     Apellidos     | Nombre del usuario | Contraseña |
+        | Yan Marco  |   Soto Benavides  |        YanSB       | Yan%200218 |
+        | Gianfranco | Callocondo Choque |       GianFC       | Gian524%20 |
+    
     Scenario: La persona con TEA coloca dato invalido
     Given que el <usuario> no posee una cuenta en la aplicación
     When el <usuario> presione el boton "Crear cuenta"
